@@ -1,2 +1,2 @@
-#Neovim config for beginners
+# Neovim config for beginners
 
