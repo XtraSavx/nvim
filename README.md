@@ -21,3 +21,5 @@ Then you need to run this in your terminal:
 3. Finnaly enter to neovim with ``nvim`` command and do ``:PlugInstall``
 
 
+Screenshots:
+![image](https://user-images.githubusercontent.com/81933734/142292209-6ae67f4e-b316-471e-ab4a-a75bba943e13.png)
