@@ -22,13 +22,10 @@ Then you need to run this in your terminal:
 
 
 ## Language Servers
-To install a language server for autcompletion you need to run this command: ``:LspInstall + TAB``,
-then you gonna get this:  
-![image](https://user-images.githubusercontent.com/81933734/142349345-3b291906-449d-486a-91ea-d9043f608a47.png)
-
-when you get that only you need to press TAB to go down and search yout language, when you search your language only press ENTER. :)
-
+To install a language server for autcompletion you need to run this command: ``:CocInstall <language server>``,
+you can check the available language servers [here](https://github.com/neoclide/coc.nvim/wiki/Language-servers)
 
 Screenshots:
-![image](https://user-images.githubusercontent.com/81933734/142349000-2c125d74-2886-442e-9a70-39665d2fcc67.png)
+![image](https://user-images.githubusercontent.com/81933734/142461798-a5fe622e-d8e2-4bb3-9685-afb612e10c4d.png)
+
 
