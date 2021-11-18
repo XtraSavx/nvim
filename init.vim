@@ -24,14 +24,14 @@ Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'lukas-reineke/indent-blankline.nvim'
 
 " Syntax
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Fuzzy Finder
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-fzy-native.nvim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Typing
 Plug 'alvan/vim-closetag'
@@ -58,11 +58,7 @@ let mapleader=" "
 
 nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>n :NERDTreeFind<CR>
+nnoremap <leader>f :FZF<cr>
 
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
-
-nnoremap <leader>f <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
